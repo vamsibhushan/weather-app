@@ -1,0 +1,111 @@
+.weather {
+    text-align: center;
+    width: 34%;
+    border-radius: 6px;
+    box-shadow: 10px 6px 45px 15px rgb(67, 115, 133);
+    color: #fff;
+    background-color: #1e3d56;
+    height: auto;
+    opacity: 0.9;
+    padding:25px;
+  }
+  
+  .top,
+  .bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .city {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1;
+    margin-top: 2px;
+    letter-spacing: 1px;
+  }
+  
+  .my_name{
+    font-style: Bold;
+    text-decoration: underline;
+    margin-top: 10px;
+  }
+  .weather_description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1;
+    margin-top: 1px;
+  }
+  
+  .weather_icon {
+    width: 100px;
+  }
+  
+  .temperature {
+    font-weight: 600;
+    font-size: 70px;
+    width: auto;
+    letter-spacing: -5px;
+    margin: 10px 0; 
+  }
+  
+  .details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .not_found{
+    height:40%;
+    width: 40%;
+  }
+  
+  .parameter_row {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .parameter_label {
+    font-weight: 400;
+    font-size: 20px;
+    margin-right:75px;
+    text-align: left;
+    width:90px;
+  }
+  
+  .parameter_value {
+    text-align: left;
+    font-weight: 600;
+    font-size: 16px; 
+  }
+  
+  .parameter_label.top {
+    border-bottom: 1px solid #fff;
+  }
+
+  @media only screen and (max-width: 800px) {
+    .weather {
+       text-align: center;
+        width: 70%;
+        border-radius: 6px;
+        box-shadow: 1px 6px 45px 15px rgb(102, 191, 224);
+        color: #fff;
+        background-color: #14293a;
+        height: auto;
+        opacity: 0.9;
+        padding:20px;
+      }
+      .details {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .parameter_label {
+        font-weight: 400;
+        font-size: 20px;
+        margin-right:45px;
+        text-align: left;
+        width:90px;
+      }
+    }

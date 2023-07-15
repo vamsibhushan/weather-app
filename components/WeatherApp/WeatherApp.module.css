@@ -1,0 +1,28 @@
+.app{
+    background-image: url("https://img.freepik.com/free-photo/cold-blue-wasteland-landscape-moon-visible-from-cave-generative-ai_191095-802.jpg?t=st=1688195316~exp=1688195916~hmac=6ad3ab255f338e53de5f9357842f4b5244815fd323bfb891224c9825ef2fded9&w=900");
+    height:100vh;
+    background-size: cover;
+    margin:0;
+    padding-top:20px;
+}
+
+.search_bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:20vh;
+}
+.details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:auto; 
+}
+@media only screen and (max-width: 800px) {
+    .app{
+        background-image: url("https://img.freepik.com/premium-photo/leaf-with-water-drops-textured-abstract-blue_72608-1249.jpg?w=360");
+        height:100vh;
+        background-size: cover;
+        margin:0;
+    }
+}

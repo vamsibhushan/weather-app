@@ -1,0 +1,29 @@
+.locationbox {
+    width: 40px;
+	  height:40px;
+    background-color: #eaeaeb;
+    
+    padding: 2px 35px 2px 2px;
+    border-radius: 50px;
+  }
+
+  .searchbtn {
+    
+    background-color: transparent;
+    font-size: 26px;
+    padding: 5px 5px;
+    border:none;
+    color: #5b5b5b;
+    transition: all .4s;
+    font-size: 35px;
+  }
+  
+  .searchbtn:hover {
+    transform: scale(1.4);
+    color: black;
+  }
+  
+  .searchbtn:focus {
+    outline:none;
+    color:black;
+  }
