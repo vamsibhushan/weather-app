@@ -92,7 +92,7 @@
         box-shadow: 1px 6px 45px 15px rgb(102, 191, 224);
         color: #fff;
         background-color: #14293a;
-        height: 100vh;
+        height: auto;
         opacity: 0.9;
         padding:20px;
       }
