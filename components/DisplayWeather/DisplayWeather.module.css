@@ -87,7 +87,7 @@
   @media only screen and (max-width: 800px) {
     .weather {
        text-align: center;
-        width: 70%;
+        width: 75%;
         border-radius: 6px;
         box-shadow: 1px 6px 45px 15px rgb(102, 191, 224);
         color: #fff;
