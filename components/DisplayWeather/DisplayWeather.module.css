@@ -5,7 +5,7 @@
     box-shadow: 10px 6px 45px 15px rgb(67, 115, 133);
     color: #fff;
     background-color: #1e3d56;
-    height: auto;
+    height: 100vh;
     opacity: 0.9;
     padding:25px;
   }
